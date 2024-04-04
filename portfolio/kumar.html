@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="kumar.css">
+    <script src="https://kit.fontawesome.com/b3bd6a1652.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>  <!--close icon-->
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>HI, I'M<span> Raj Kumar</span><br> Raut Kurmi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="cdf.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a software engineer with expertise in HTML, CSS, and JavaScript. I have been passionate about web development for over 1 years and have experience in building responsive web applications as a intern.</p>
+                    <p> I am dedicated to writing clean and maintainable code, and I am always looking for ways to improve my skills and stay up-to-date with the latest web development trends.</p>
+                    <p>When I'm not coding, I enjoy playing cricket,badmintan and learning new programming languages. I am also an active member of the local tech community and enjoy attending meetups and conferences to connect with other developers and learn about new technologies.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')" >Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('education')" >Education</p>
+
+                </div>
+     <div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>HTML,CSS</span><br>Javascript</li>
+        <li><span>MYSQL</span><br>Python</li>
+        <li><span>UI/UX</span><br>designing WebSites</li>
+
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2022 - current</span><br>Web Developer Intern</li>  
+
+    </ul>
+</div>
+ <div class="tab-contents" id="education">
+    <ul>
+        <li><span>2022 - current</span><br>I am Pursuing B-Tech in Srm University Ap(Andhra pradesh,Guntur)</li>
+        <li><span>2021</span><br>I did my High school from National Infotech(Nepal)</li>
+
+    </ul>
+</div>
+
+
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-regular fa-code-compare"></i>
+                    <h2> Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit officiis unde, fuga soluta illo ipsam tempore aliquam sequi optio et reiciendis error ipsum temporibus possimus eos voluptatibus maxime dolorum rem.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit officiis unde, fuga soluta illo ipsam tempore aliquam sequi optio et reiciendis error ipsum temporibus possimus eos voluptatibus maxime dolorum rem.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit officiis unde, fuga soluta illo ipsam tempore aliquam sequi optio et reiciendis error ipsum temporibus possimus eos voluptatibus maxime dolorum rem.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <he>Social Media App</he>
+                        <p>The app connects you are the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <he>Music App</he>
+                            <p>The app connects you are the talented people around the world.
+                                Download it from play store.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                        </div> 
+                        </div>
+                        <div class="work">
+                            <img src="work-3.png">
+                            <div class="layer">
+                                <he>Shopping App</he>
+                                <p>The app connects you are the talented people around the world.
+                                    Download it from play store.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+
+                            </div>
+                </div>
+            </div>
+            <a href="#" class="raju">see more</a>
+        </div>
+    </div>
+    <!-- Contact me -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@gmail.com</p>
+                    <p>0123498765</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/login/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fedit%2F%3F__coig_login%3D1"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.whatsapp.com"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/rajkumar-raut-kurmi-b2b180259/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/Rajkumarrautkurmi"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="raju kumar">Download</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="text" name="email" placeholder="Enter your email id" required>
+                        <textarea name="Message" rows="6" placeholder="Enter your msg"></textarea>
+                        <button type="submit" class="raju kumar">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ raj.made with <i class="fa-solid fa-heart-pulse"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script> 
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+</html>
